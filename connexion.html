@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CDN Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- lien css -->
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-light justify-content-between colorpic pb-0 w-100">
+    <div class="space">
+      <div>
+        <a class="navbar-brand fonttype"> <span class= "colortext"> facebook </span> </a>
+      </div>
+      <div>
+        <form id="login-form" class="d-flex tailletext">
+          <div class="form-group colortext mb-0 mr-3 large">
+            <label for="exampleInputEmail1">Adresse e-mail ou mobile</label>
+            <input type="email" class="form-control rounded-0 haut" id="email" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group colortext mb-0 mr-5 large">
+            <label for="exampleInputPassword1">Mot de passe</label>
+            <input type="password" class="form-control rounded-0 haut" id="password">
+            <small id="emailHelp" class="infotext">Informations de compte oubliées ?</small>
+          </div>
+          <button type="button" class="btn btn-primary haute rounded-0 font-weight-bold tailletext btntn" id="login-button">Connexion</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header  -->
+  <section class="colordeg">
+    <div class="container">
+      <div class="row">
+        <div class="col ml-5 spacecol0">
+          <h5 class="colorp">Avec Facebook, partagez et restez en contact<br> avec votre entourage.</h5>
+          <img src="image/facebook.png" alt="">
+        </div>
+        <div class="col spacecol">
+          <div class="margse">
+            <h1 class="tailleinscri">Inscription</h1>
+            <p>C’est rapide et facile.</p>
+          </div>
+          <form class="container">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Prénom" aria-required="true" aria-invalid="true">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nom de famille">
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control formmarg" placeholder="Numéro de mobile ou e-mail">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control formmarg" placeholder="Nouveau mot de passe">
+            </div>
+          </form>
+          <div class="margse">
+            <p class="margbot">Date de naissance</p>
+            <form class="form-inline">
+              <select class="form-control">
+                <!-- Liste des jours -->
+                <option value="0">Jour</option>
+                <option value="1">1</option>
+                <!-- ... autres jours ... -->
+                <option value="31">31</option>
+              </select>
+
+              <select class="form-control">
+                <!-- Liste des mois -->
+                <option value="0">Mois</option>
+                <option value="1">jan</option>
+                <!-- ... autres mois ... -->
+                <option value="12">déc</option>
+              </select>
+
+              <select class="form-control">
+                <!-- Liste des années -->
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <!-- ... autres années ... -->
+                <option value="1900">1900</option>
+              </select>
+            </form>
+          </div>
+          <div class="margse">
+            <p class="genr">Genre</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label checktaille" for="inlineRadio1">Femme</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label checktaille" for="inlineRadio2">Homme</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+              <label class="form-check-label checktaille" for="inlineRadio3">Personnalisé</label>
+            </div>
+            <div>
+              <p class="para">
+                En appuyant sur Inscription, vous acceptez nos <a href="">Conditions générales</a>, notre <a href="">Politique d’utilisation des données</a> et notre
+                <a href="">Politique d’utilisation des cookies</a>. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à
+                tout moment vous désabonner.
+              </p>
+            </div>
+          </div>
+          <div class="margse">
+            <div>
+              <button type="button" class="btn btn-success">Inscription</button>
+            </div>
+            <div>
+              <p class="pagetail"><a href="">Créer une Page</a> pour une célébrité, un groupe ou une entreprise.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="avantfoot">
+    <div class="avantff">
+        Français (France)
+        <a href=""> Malagasy</a> &nbsp;
+        <a href=""> English (US)</a> &nbsp;
+        <a href=""> Italiano</a> &nbsp;
+        <a href=""> Español</a> &nbsp;
+        <a href=""> Deutsch</a> &nbsp;
+        <a href=""> 中文(简体)</a> &nbsp;
+        <a href=""> Türkçe</a> &nbsp;
+        <a href=""> Português (Brasil)</a> &nbsp;
+        <a href=""> العربية</a> &nbsp;
+        <a href=""> हिन्दी</a> &nbsp;
+    </div>
+    <hr>
+    <div class="avantff">
+      <a href="">  Inscription </a> &nbsp;
+      <a href=""> Connexion </a> &nbsp;
+      <a href=""> Messenger </a> &nbsp;
+      <a href=""> Facebook Lite</a> &nbsp;
+      <a href=""> Watch</a> &nbsp;
+      <a href=""> Personnes</a> &nbsp;
+      <a href=""> Pages</a> &nbsp;
+      <a href=""> Catégories de Page</a> &nbsp;
+      <a href=""> Lieux </a> &nbsp;
+      <a href=""> Jeux</a> &nbsp;
+      <a href=""> Lieux</a> &nbsp;
+      <a href=""> Marketplace</a> &nbsp;
+      <a href=""> Groupes</a> &nbsp;
+      <a href=""> Instagram</a> &nbsp;
+      <a href=""> Local</a> &nbsp;
+      <a href=""> Collectes de fonds</a> &nbsp;
+      <a href=""> Services</a> &nbsp;
+      <a href=""> À propos</a> &nbsp;
+      <a href=""> Créer une publicité</a> &nbsp;
+      <a href=""> Créer une Page</a> &nbsp;
+      <a href=""> Développeurs</a> &nbsp;
+      <a href=""> Emplois</a> &nbsp;
+      <a href=""> Confidentialité</a> &nbsp;
+      <a href=""> Cookies</a> &nbsp;
+      <a href=""> Choisir sa pub</a> &nbsp;
+      <a href=""> Conditions générales</a> &nbsp;
+      <a href=""> Aide</a> &nbsp;
+      <a href=""> Paramètres</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Facebook © 2019
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('login-button').addEventListener('click', function() {
+      // Logic to get the input values if needed
+      // Redirect to index.html
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
